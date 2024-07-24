@@ -1,0 +1,9 @@
+pandas==2.2.2
+fastapi==0.111.1
+uvicorn==0.30.3
+psycopg2-binary==2.9.9
+pymongo==4.8.0
+sqlalchemy==2.0.3
+pydantic~=2.8.2
+pymongo==4.8.0
+python-decouple==3.8
