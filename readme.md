@@ -14,12 +14,11 @@ Follow these steps to set up the project:
 
 1. Clone the repository and navigate to the project directory:
     ```shell
-    git clone <repository_url>
+    git clone https://github.com/LOKESHWARAN1/registration.git
     cd registration
     ```
 2. Install the required Python packages:
     ```shell
-    cd registration
     pip install -r requirements.txt
     ```
 
@@ -31,6 +30,22 @@ The database connection details for PostgreSQL and MongoDB are specified in the 
 /registration       # This is the root directory
 │
 ├── .env                  # Environment variables file
+```
+
+## Profile Picture Storage
+User profile pictures are stored in the `profile_pictures` directory:
+```
+/registration
+│
+├── profile_pictures       # User profile pictures store in this directory
+```
+
+## Screenshots
+Project screenshots are attached in the `screen_shot` directory:
+```
+/registration
+│
+├── screen_shot            # Project screen shot files are attached here
 ```
 
 ## Running the Application
